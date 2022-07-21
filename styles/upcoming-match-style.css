@@ -1,0 +1,98 @@
+/* Utilities or Common */
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Poppins:wght@600&display=swap');
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Top container starts */
+.top-container {
+    width: 100% auto;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 50;
+    background-color: #161616;
+    border-radius: 30px;
+}
+
+.top-text-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-text {
+    color: #FFFFFF;
+}
+
+.top-banner-button {
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+
+/* Top container ends */
+
+/* Blog section starts */
+/* left Nav button starts  */
+.nav-container {
+    display: inline-block;
+    width: 252px;
+    height: 252px;
+    padding: 30px;
+    background-color: black;
+}
+
+.left-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: center;
+    justify-content: space-around;
+
+
+}
+
+
+
+/* left nav button ends */
+.blog-container {}
+
+.blog-container {
+    display: grid;
+}
+
+
+
+
+
+footer {
+    color: #FFFFFF;
+    background-color: black;
+    width: 100% auto;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+
+}
+
+.footer-manu {
+    display: inline-block
+}
+
+.footer-manu-details {
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer-h2 {
+    font-size: 40px;
+}
